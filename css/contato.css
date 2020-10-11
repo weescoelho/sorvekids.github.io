@@ -1,0 +1,85 @@
+.bg-page {
+  background: url(../img/bg-contato.jpg) no-repeat center;
+  width: 100%;
+  height: 160px;
+  background-size: cover;
+}
+.bg-page h1 {
+  color: #fff;
+  padding-top: 70px;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.bg-page h1::after {
+  content: "";
+  border: 3px solid #ec678a;
+  display: block;
+  width: 60px;
+  margin: 0 auto;
+}
+
+.bg-page p {
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* Formulario */
+
+.form{
+  margin-top: 40px;
+  padding-right: 40px;
+}
+
+.form input{
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  border-color:#EC678A;
+  padding: 8px 0;
+  margin: 8px 0;
+}
+
+.form textarea{
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  border-color:#EC678A;
+  margin-top:8px;
+}
+
+.form label{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+  
+
+}
+
+/* Dados */
+
+.contact h2 {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  padding-top: 40px;
+
+  margin-top: 25px;
+}
+
+.contact h2::after {
+  content: "";
+  border: 3px solid #ec678a;
+  display: block;
+  width: 30px;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.contact ul li{
+  
+  margin-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
